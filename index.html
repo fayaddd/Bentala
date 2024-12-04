@@ -161,25 +161,36 @@
           </div>
       </body>
       
-        
         <div class="mb-6">
           <h3 class="font-bold mb-2">Harga</h3>
           <ul>
             <li>
-              <input class="mr-2" id="price1" name="price" type="radio"/>
-              <label for="price1">Rp 0 - Rp 100.000</label>
+              <div class="flex items-center flex-nowrap">
+                <input type="radio" id="price1" name="price" class="hidden peer" /> 
+                <label for="price1" class="flex cursor-pointer w-3 h-3 border-2 border-[--hitam] rounded-full block mr-2 peer-checked:bg-[--hitam] peer-checked:border-[--hitam] relative"></label>
+                <span class="text-sm">Rp 0 - Rp 100.000</span>
+              </div>
             </li>
             <li>
-              <input class="mr-2" id="price2" name="price" type="radio"/>
-              <label for="price2">Rp 100.000 - Rp 250.000</label>
+              <div class="flex items-center flex-nowrap">
+                <input type="radio" id="price2" name="price" class="hidden peer" /> 
+                <label for="price2" class="flex cursor-pointer w-3 h-3 border-2 border-[--hitam] rounded-full block mr-2 peer-checked:bg-[--hitam] peer-checked:border-[--hitam] relative"></label>
+                <span class="text-sm">Rp 100.000 - Rp 250.000</span>
+              </div>
             </li>
             <li>
-              <input class="mr-2" id="price3" name="price" type="radio"/>
-              <label for="price3">Rp 250.000 - Rp 500.000</label>
+              <div class="flex items-center flex-nowrap">
+                <input type="radio" id="price3" name="price" class="hidden peer" /> 
+                <label for="price3" class="flex cursor-pointer w-3 h-3 border-2 border-[--hitam] rounded-full block mr-2 peer-checked:bg-[--hitam] peer-checked:border-[--hitam] relative"></label>
+                <span class="text-sm">Rp 250.000 - Rp 500.000</span>
+              </div>
             </li>
             <li>
-              <input class="mr-2" id="price4" name="price" type="radio"/>
-              <label for="price4">Rp &gt; 500.000</label>
+              <div class="flex items-center flex-nowrap">
+                <input type="radio" id="price4" name="price" class="hidden peer" /> 
+                <label for="price4" class="flex cursor-pointer w-3 h-3 border-2 border-[--hitam] rounded-full block mr-2 peer-checked:bg-[--hitam] peer-checked:border-[--hitam] relative"></label>
+                <span class="text-sm">Rp &gt; 500.000</span>
+              </div>
             </li>
           </ul>
         </div>
@@ -198,9 +209,9 @@
   <div class="flex justify-between items-center mb-6">
     <div class="flex items-center space-x-2">
       <!-- Tambahkan shadow dan efek hover -->
-      <button class="border border-gray-300 rounded-full py-1 px-3 hover:border-black hover:bg-gray-200 hover:shadow-md transition duration-300">
-        Tag
-        <i class="fas fa-times ml-2"></i>
+      <button class="bg-gray-200 rounded-full py-1 px-3 hover:bg-gray-300 hover:shadow-md transition duration-300"> 
+        Tag 
+        <i class="fas fa-times ml-2"> </i>
       </button>
           </div>
           <div class="relative">
